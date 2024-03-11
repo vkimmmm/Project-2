@@ -40,5 +40,9 @@ document.addEventListener('DOMContentLoaded', function() {
         notifications.forEach(notification => {
             notification.classList.add('chaotic');
         });
-    }, (notifications.length * 1000) + 1000);
+    }, (notifications.length * 5000) + 1000);
 });
+
+
+
+
